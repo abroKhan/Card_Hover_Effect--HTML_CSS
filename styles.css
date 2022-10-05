@@ -32,6 +32,9 @@ body {
     height: 200px;
 }
 
+/* ==============
+    CARD TOP 
+   ============== */
 .container .card .card__face.card__top {
     position: relative;
     background-color: #333;
@@ -67,8 +70,9 @@ body {
     opacity: 1;
 }
 
-/* Card Bottom */
-
+/* ==============
+    CARD BOTTOM 
+   ============== */
 .container .card .card__face.card__bottom {
     position: relative;
     background: #fff;
