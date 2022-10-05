@@ -30,8 +30,6 @@ body {
 .container .card .card__face {
     width: 300px;
     height: 200px;
-    border-radius: 4px;
-    overflow: hidden;
 }
 
 .container .card .card__face.card__top {
@@ -40,12 +38,13 @@ body {
     justify-content: center;
     align-items: center;
     transform: translateY(100px);
-    z-index: 1;
+    z-index: 1000;
 }
 
 .container .card:hover .card__face.card__top {
     background: #ff0057;
     transform: translateY(0);
+    border-radius: 4px 4px 0px 0px;
 }
 
 .container .card .card__face.card__top .content {
@@ -72,6 +71,7 @@ body {
 .container .card .card__face.card__bottom {
     position: relative;
     background: #fff;
+    border-radius: 0px 0px 4px 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,4 +83,14 @@ body {
 
 .container .card:hover .card__face.card__bottom {
     transform: rotateY(0);
+}
+
+.container .card:hover .card__face.card__bottom .content a {
+    display: inline-block;
+    color: #333;
+    font-weight: 600;
+    border: 1px solid #333;
+    text-decoration: none;
+    padding: 5px;
+    margin: 15px 0 0;
 }
