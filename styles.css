@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
 }
@@ -92,7 +92,7 @@ body {
 .container .card .card__face.card__bottom .content a {
     display: inline-block;
     color: #333;
-    font-weight: 600;
+    font-weight: 500;
     border: 1px solid #333;
     text-decoration: none;
     padding: 5px;
