@@ -65,3 +65,16 @@ body {
 .container .card:hover .card__face.card__top .content {
     opacity: 1;
 }
+
+/* Card Bottom */
+
+.container .card .card__face.card__bottom {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform: translateY(-100px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
