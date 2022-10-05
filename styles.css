@@ -48,6 +48,20 @@ body {
 }
 
 .container .card .card__face.card__top .content {
-    color: #5b5858;
+    color: #ffffff;
     text-align: center;
+    opacity: .2;
+}
+
+.container .card .card__face.card__top .content i {
+    font-size: 60px;
+}
+
+.container .card .card__face.card__top .content h3 {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+}
+
+.container .card:hover .card__face.card__top .content {
+    opacity: 1;
 }
