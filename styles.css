@@ -30,7 +30,8 @@ body {
 .container .card .card__face {
     width: 300px;
     height: 200px;
-    border: 1px solid white;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .container .card .card__face.card__top {
@@ -69,12 +70,17 @@ body {
 /* Card Bottom */
 
 .container .card .card__face.card__bottom {
-    background-color: #fff;
+    position: relative;
+    background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
-    transform: translateY(-100px);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-    z-index: 1;
+    transform: translateY(-100px);
+    z-index: -1;
+}
+
+.container .card:hover .card__face.card__bottom {
+    transform: rotateY(0);
 }
