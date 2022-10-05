@@ -94,3 +94,8 @@ body {
     padding: 5px;
     margin: 15px 0 0;
 }
+
+.container .card:hover .card__face.card__bottom .content a:hover {
+    background: #333;
+    color: #fff;
+}
