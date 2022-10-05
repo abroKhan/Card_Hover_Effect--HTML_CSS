@@ -32,3 +32,12 @@ body {
     height: 200px;
     border: 1px solid white;
 }
+
+.container .card .card__face.card__top {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(100px);
+    z-index: 1;
+}
