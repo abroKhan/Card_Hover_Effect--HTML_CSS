@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -40,4 +40,14 @@ body {
     align-items: center;
     transform: translateY(100px);
     z-index: 1;
+}
+
+.container .card:hover .card__face.card__top {
+    background: #ff0057;
+    transform: translateY(0);
+}
+
+.container .card .card__face.card__top .content {
+    color: #5b5858;
+    text-align: center;
 }
