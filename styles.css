@@ -85,7 +85,7 @@ body {
     transform: rotateY(0);
 }
 
-.container .card:hover .card__face.card__bottom .content a {
+.container .card .card__face.card__bottom .content a {
     display: inline-block;
     color: #333;
     font-weight: 600;
@@ -95,7 +95,7 @@ body {
     margin: 15px 0 0;
 }
 
-.container .card:hover .card__face.card__bottom .content a:hover {
+.container .card .card__face.card__bottom .content a:hover {
     background: #333;
     color: #fff;
 }
