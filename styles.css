@@ -8,9 +8,27 @@
 }
 
 body {
+    height: 100vh;
     background: #333;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .card {
+    position: relative;
+    cursor: pointer;
+}
+
+.container .card .card__face {
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
 }
